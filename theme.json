@@ -1,0 +1,88 @@
+{
+    "version": 2,
+    "customTemplates": [
+        {
+            "name": "eggcerpt-template",
+            "title": "Eggcerpt Template",
+            "postTypes": [
+                "page"
+            ]
+        }
+    ],
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "slug": "foreground",
+                    "color": "#000000",
+                    "name": "Foreground"
+                },
+                {
+                    "slug": "background",
+                    "color": "#FFFFFF",
+                    "name": "Background"
+                },
+                {
+                    "slug": "background-primary",
+                    "color": "#F4EEEC",
+                    "name": "Primary"
+                },
+                {
+                    "slug": "secondary",
+                    "color": "#606060",
+                    "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#DC2035",
+                    "name": "Tertiary"
+                }
+            ]
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Poppins', sans-serif",
+                    "name": "Poppins",
+                    "slug": "poppins"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "size": "1.3125rem",
+                    "slug": "small"
+                },
+                {
+                    "size": "2.1875rem",
+                    "slug": "medium"
+                },
+                {
+                    "size": "3rem",
+                    "slug": "large"
+                },
+                {
+                    "size": "3.75rem",
+                    "slug": "x-large"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/post-title": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--typography--font-family--poppins",
+                    "fontSize": "var(--wp--preset--typography--font-size--x-large",
+                    "fontWeight": "400",
+                    "fontColor": "var(--wp--preset--color--tertiary"
+                }
+            }
+        },
+        "elements": {
+            
+        }
+    },
+    "templateParts": [
+       
+    ]
+}
