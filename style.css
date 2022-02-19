@@ -18,11 +18,94 @@ Twenty Twenty-Two Child WordPress Theme, (C) 2021 WordPress.org
 Twenty Twenty-Two Child is distributed under the terms of the GNU GPL.
 */
 
+* {
+	box-sizing: border-box;
+}
 
-/* h1 {
-	color: var(--wp--presets--color--tertiary);
-} */
-/* 
-.wp-block-site-title a {
-	color: blue;
-} */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wp-site-blocks {
+	padding: 0;
+}
+.wp-block-post-excerpt {
+
+}
+
+header {
+	display: flex;
+	align-items: center !important;
+	/* position: absolute; */
+	width: 100vw !important;
+	/* background-size: 100vw !important; */
+}
+.header-image img{
+	display: flex;
+	align-items: center !important;
+	width: 100vw !important;
+	/* background-size: 100vw !important; */
+}
+
+h1 {
+	opacity: 1;
+	padding: 10px;
+}
+
+/* main title block*/
+.heading-block {
+	padding: 15%;
+}
+
+.eggs {
+	display: block;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	width: 150px;
+	height: 200px;
+	padding: 20px;
+}
+.egg-1 img {
+	width: 150px !important;
+	height: 200px !important;
+	filter: invert(100%) sepia(83%) saturate(214%) hue-rotate(343deg) brightness(108%) contrast(91%);
+}
+.egg-2 img {
+	width: 150px !important;
+	height: 200px !important;
+	filter: invert(12%) sepia(63%) saturate(6141%) hue-rotate(347deg) brightness(121%) contrast(82%);
+}
+.egg-3 img {
+	width: 150px !important;
+	height: 200px !important;
+	filter: invert(100%) sepia(83%) saturate(214%) hue-rotate(343deg) brightness(108%) contrast(91%);
+}
+h3 {
+	padding: 20px;
+	color: var(--wp--preset--color--secondary);
+}
+
+
+
+/* eggcerpts block */
+.eggcerpts-block {
+	background-color: var(--wp--preset--color--background-secondary);
+	padding: 164px 17% 168px 17%;
+	/* padding-left: 17%; */
+}
+
+.eggcerpt-1 {
+	/* padding-right: 90px; */
+	/* height: 380px;
+	max-width: 571px; */
+}
+
+
+footer {
+	background-color: var(--wp--preset--color--secondary);
+	width: 100vw;
+	height: 276px;
+}
+
