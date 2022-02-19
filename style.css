@@ -30,9 +30,7 @@ body {
 .wp-site-blocks {
 	padding: 0;
 }
-.wp-block-post-excerpt {
 
-}
 
 header {
 	display: flex;
@@ -96,11 +94,6 @@ h3 {
 	/* padding-left: 17%; */
 }
 
-.eggcerpt-1 {
-	/* padding-right: 90px; */
-	/* height: 380px;
-	max-width: 571px; */
-}
 
 
 footer {
