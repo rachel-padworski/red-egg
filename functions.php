@@ -11,4 +11,3 @@ function twentytwentytwo_child_style() {
     );
 }
 
-

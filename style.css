@@ -43,7 +43,11 @@ header {
 	display: flex;
 	align-items: center !important;
 	width: 100vw !important;
+	height: 100vh !important;
 	/* background-size: 100vw !important; */
+}
+header figure {
+	margin: 0;
 }
 
 h1 {
@@ -53,17 +57,18 @@ h1 {
 
 /* main title block*/
 .heading-block {
-	padding: 15%;
+	margin: 5%;
+	padding: 10%;
 }
 
 .eggs {
 	display: block;
-	margin: auto;
 	display: flex;
 	align-items: center;
 	width: 150px;
 	height: 200px;
-	padding: 20px;
+	margin: 5%;
+	padding: 10%;
 }
 .egg-1 img {
 	width: 150px !important;
@@ -91,7 +96,8 @@ h3 {
 .eggcerpts-block {
 	background-color: var(--wp--preset--color--background-secondary);
 	padding: 164px 17% 168px 17%;
-	/* padding-left: 17%; */
+	margin: 0;
+
 }
 
 
@@ -100,5 +106,6 @@ footer {
 	background-color: var(--wp--preset--color--secondary);
 	width: 100vw;
 	height: 276px;
+	margin: 0 !important;
 }
 
