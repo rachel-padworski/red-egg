@@ -35,19 +35,17 @@ body {
 header {
 	display: flex;
 	align-items: center !important;
-	/* position: absolute; */
-	width: 100vw !important;
-	/* background-size: 100vw !important; */
+	width: 100% !important;
 }
 .header-image img{
 	display: flex;
 	align-items: center !important;
-	width: 100vw !important;
-	height: 100vh !important;
-	/* background-size: 100vw !important; */
+	width: 100% !important;
+	height: 100% !important;
 }
 header figure {
 	margin: 0;
+	width: 100% !important;
 }
 
 h1 {
@@ -62,28 +60,38 @@ h1 {
 }
 
 .eggs {
-	display: block;
+	/* display: block; */
 	display: flex;
+	justify-content: center;
 	align-items: center;
-	width: 150px;
+	width: 100%;
 	height: 200px;
-	margin: 5%;
-	padding: 10%;
+	margin: 0 !important;
+	padding: 7px;
+}
+.egg-1 {
+	justify-content: center;
+	align-items: center;
+	margin: 0 !important;
+
 }
 .egg-1 img {
-	width: 150px !important;
+	justify-content: center;
+	align-items: center;
+	margin: 0 !important;
+	width: 100% !important;
 	height: 200px !important;
-	filter: invert(100%) sepia(83%) saturate(214%) hue-rotate(343deg) brightness(108%) contrast(91%);
+	filter: invert(90%) sepia(7%) saturate(554%) hue-rotate(315deg) brightness(110%) contrast(91%);
 }
 .egg-2 img {
 	width: 150px !important;
 	height: 200px !important;
-	filter: invert(12%) sepia(63%) saturate(6141%) hue-rotate(347deg) brightness(121%) contrast(82%);
+	filter: invert(25%) sepia(100%) saturate(3919%) hue-rotate(341deg) brightness(87%) contrast(98%);
 }
 .egg-3 img {
 	width: 150px !important;
 	height: 200px !important;
-	filter: invert(100%) sepia(83%) saturate(214%) hue-rotate(343deg) brightness(108%) contrast(91%);
+	filter: invert(90%) sepia(7%) saturate(554%) hue-rotate(315deg) brightness(110%) contrast(91%);
 }
 h3 {
 	padding: 20px;
@@ -97,7 +105,13 @@ h3 {
 	background-color: var(--wp--preset--color--background-secondary);
 	padding: 164px 17% 168px 17%;
 	margin: 0;
-
+}
+.eggcerpts {
+	font-family: var(--wp--preset--font-family--poppins);
+	font-size: var(--wp--preset--font-size--small);
+}
+.eggcerpts li a div {
+	display: none;
 }
 
 

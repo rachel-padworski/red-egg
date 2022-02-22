@@ -51,11 +51,6 @@
                     "fontFamily": "'Poppins', sans-serif",
                     "name": "Poppins",
                     "slug": "poppins"
-                },
-                {
-                    "fontFamily": "'Poppins', sans-serif",
-                    "name": "Poppins",
-                    "slug": "poppins"
                 }
             ],
             "fontSizes": [
@@ -143,11 +138,6 @@
             "name": "footer",
             "area": "footer",
             "title": "Footer"
-        },
-        {
-            "name": "main-title-content",
-            "area": "main",
-            "title": "Main Title Content"
         }
     ]
 }
